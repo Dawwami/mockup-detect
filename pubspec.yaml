@@ -1,0 +1,26 @@
+name: mock_app_sawit
+description: "Sawit detection app."
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  cupertino_icons: ^1.0.8
+  camera: ^0.11.1
+  flutter_vision:
+  get: ^4.7.2
+  permission_handler: ^12.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
